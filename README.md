@@ -1,1 +1,1 @@
-# Dynamic-Image-Sliderhttps:
+# Dynamic-Image-Slider:
