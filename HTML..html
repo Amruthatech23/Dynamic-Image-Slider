@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active" data-caption="BENGALURU" data-description=" Bengaluru-As cosmopolitan as it gets! ">
+                <img src="https://i.postimg.cc/bNc7RcbR/Screenshot-20240810-183055-3.jpg " alt="Image 1">
+            </div>
+            <div class="slide" data-caption="BIJAPUR" data-description=" Bijapur-Glory of Bahmani Sultanates! ">
+                <img src="https://i.postimg.cc/R0LYGN71/Screenshot-20240810-182347-2.jpg" alt="Image 2">
+            </div>
+            <div class="slide" data-caption="MYSURU" data-description=" Mysuru- Wrapped in royalty! ">
+                <img src="https://i.postimg.cc/brGQBBt0/Screenshot-20240810-183006-2.jpg " alt="Image 3">
+            </div>
+            <div class="slide" data-caption="SHIVAMOGGA" data-description="Jog Falls- Falling with a vehemence! ">
+                <img src="https://i.postimg.cc/pdvDKbC4/Screenshot-20240810-182356-2.jpg" alt="Image 4">
+            </div>
+            <div class="slide" data-caption="HAMPI" data-description="Ruins of Hampi- Time comes to a standstill here! ">
+                <img src="https://i.postimg.cc/fLkN1cTj/Screenshot-20240810-183351-2.jpg " alt="Image 5">
+            </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+
+        <!-- Thumbnails -->
+        <div class="thumbnails">
+            <img class="thumb active" src="https://i.postimg.cc/bNc7RcbR/Screenshot-20240810-183055-3.jpg  " alt="Thumbnail 1">
+            <img class="thumb" src=" https://i.postimg.cc/R0LYGN71/Screenshot-20240810-182347-2.jpg " alt="Thumbnail 2">
+            <img class="thumb" src=" https://i.postimg.cc/brGQBBt0/Screenshot-20240810-183006-2.jpg " alt="Thumbnail 3">
+            <img class="thumb" src=" https://i.postimg.cc/pdvDKbC4/Screenshot-20240810-182356-2.jpg " alt="Thumbnail 4">
+            <img class="thumb" src=" https://i.postimg.cc/fLkN1cTj/Screenshot-20240810-183351-2.jpg " alt="Thumbnail 5">
+        </div>
+
+        <!-- Caption and Description -->
+        <div class="caption-container">
+            <h3 class="caption"></h3>
+            <p class="description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
