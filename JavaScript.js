@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const showSlide = (index) => {
         slides.forEach((slide, i) => {
-            slide..remove('active');
+            slide.classList.remove('active');
             thumbnails[i].classList.remove('active');
         });
 
